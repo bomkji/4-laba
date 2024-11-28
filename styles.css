@@ -1,0 +1,141 @@
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ff6f00, #ffb300, #000000); /* Градієнт від помаранчевого до чорного */
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff6f00; /* Помаранчевий */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Content section styling */
+.content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Image container */
+.image-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Загальні стилі для зображень */
+img {
+    max-width: 100%; /* Зображення адаптується до ширини контейнера */
+    height: auto; /* Пропорції зображення не змінюються */
+    display: block; /* Зображення займає всю ширину контейнера без додаткових проміжків */
+    margin: 0 auto; /* Центрує зображення горизонтально */
+    border-radius: 10px; /* Заокруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тінь під зображенням */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавний перехід при взаємодії */
+}
+
+/* Стилі для зображень при наведенні курсору */
+img:hover {
+    transform: scale(1.05); /* Збільшує зображення при наведенні */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Збільшена тінь при наведенні */
+}
+
+/* Додаткові стилі для зображення в контейнері */
+.image-container {
+    max-width: 80%; /* Обмежує максимальну ширину контейнера */
+    margin: 30px auto; /* Центрує контейнер зображення */
+    padding: 10px;
+    border: 2px solid #ff6f00; /* Помаранчева рамка навколо контейнера */
+    border-radius: 15px; /* Заокруглені кути контейнера */
+    background-color: rgba(255, 255, 255, 0.8); /* Напівпрозорий фон */
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff6f00; /* Deep orange */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Content section styling */
+.content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Image container */
+.image-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.image-container img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
